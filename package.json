@@ -1,0 +1,21 @@
+{
+	"name": "svelte-kit-homepage",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^2.0.3",
+		"@sveltejs/enhanced-img": "^0.1.5",
+		"@sveltejs/kit": "^1.27.4",
+		"eslint": "^8.28.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"svelte": "^4.2.7",
+		"vite": "^4.4.2"
+	},
+	"type": "module"
+}
