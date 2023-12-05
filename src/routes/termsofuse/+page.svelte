@@ -10,6 +10,11 @@
         font-family: sans-serif;
     }
 
+    @keyframes fadein {
+        from {opacity: 0; transform: scale(0.95, 0.95)}
+        to {opacity: 1; transform: scale(1.0, 1.0)}
+    }
+
     .main {
         height: 800px;
         display: flex;
