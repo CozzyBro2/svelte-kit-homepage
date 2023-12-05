@@ -7,8 +7,7 @@
     }
 
     :global(body) {
-        height: 100vh;
-        background-color: rgb(20, 20, 33);
+        background-color: #0f0f12
     }
 
     .main {
@@ -21,8 +20,8 @@
     }
 
     @keyframes fadein {
-        from {opacity: 0}
-        to {opacity: 1}
+        from {opacity: 0; transform: scale(0.95, 0.95)}
+        to {opacity: 1; transform: scale(1.0, 1.0)}
     }
 
     .main h4 {
@@ -71,5 +70,6 @@
     <h4>Hi, I'm <span>HashCollision</span> 👋</h4>
     <p class="title">Developer, Hobbyist</p>
     <p class="subtitle">Slacking off since day one 👍</p>
+
     <enhanced:img class="logo" src="$lib/assets/logo.png" sizes="min(270px, 100vw)" alt = "My profile pic" />
 </div>
