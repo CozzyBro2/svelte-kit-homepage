@@ -1,6 +1,4 @@
 My personal homepage
-
-Cool uptime badge:
 [![Better Stack Badge](https://uptime.betterstack.com/status-badges/v3/monitor/w05i.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 
 This site is created entirely in [SvelteKit](https://kit.svelte.dev/). It is designed to be built as a collection of static files to be served to clients.
