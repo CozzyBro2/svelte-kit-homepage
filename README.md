@@ -1,6 +1,5 @@
 # About
 My personal homepage, built entirely in [SvelteKit](https://kit.svelte.dev/).
-[![Better Stack Badge](https://uptime.betterstack.com/status-badges/v3/monitor/w05i.svg)](https://uptime.betterstack.com/?utm_source=status_badge)
 
 # Building
 If you're interested in building it, first, ensure you have all dependencies:  
