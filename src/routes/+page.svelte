@@ -20,8 +20,8 @@
     }
 
     @keyframes fadein {
-        from {opacity: 0; transform: scale(0.95, 0.95)}
-        to {opacity: 1; transform: scale(1.0, 1.0)}
+        from {opacity: 0}
+        to {opacity: 1}
     }
 
     .main h4 {
@@ -29,7 +29,7 @@
         color: white;
         font-weight: 600;
         transition: transform 0.4s;
-        animation: fadein 1.9s;
+        animation: fadein 2.0s;
     }
 
     .logo:hover {
@@ -53,15 +53,15 @@
         font-size: 16px;
         color: #ccc;
         margin-top: 20px;
-        animation: fadein 2.1s;
+        animation: fadein 2.0s;
     }
 
     .logo {
-        width: 250px;
-        height: 250px;
-        margin-top: 50px;
+        width: 248px;
+        height: 248px;
+        margin-top: 48px;
         opacity: 1;
-        transition: transform 0.33s;
+        transition: transform 0.34s;
         animation: fadein 2.2s;
     }
 </style>
