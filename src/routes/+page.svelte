@@ -1,22 +1,13 @@
 <style>
-    * {
-        margin: 0;
-        padding: 0; 
-        box-sizing: border-box;
-        font-family: sans-serif;
-    }
-
-    :global(body) {
-        background-color: #0f0f12
-    }
-
     .main {
-        height: 800px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
         display: flex;
+        text-align: center;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        font-size: large
     }
 
     @keyframes fadein {

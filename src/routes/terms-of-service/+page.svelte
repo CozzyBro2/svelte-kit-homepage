@@ -1,27 +1,17 @@
 <style>
-    :global(body) {
-        background-color: #0f0f12
-    }
-
-    * {
-        margin: 0;
-        padding: 0; 
-        box-sizing: border-box;
-        font-family: sans-serif;
-    }
-
     @keyframes fadein {
         from {opacity: 0; transform: scale(0.95, 0.95)}
         to {opacity: 1; transform: scale(1.0, 1.0)}
     }
 
     .main {
-        height: 800px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
         display: flex;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        font-size: large
     }
 
     .main p.subtitle {

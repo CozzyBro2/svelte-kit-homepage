@@ -1,0 +1,15 @@
+@import "@fontsource-variable/noto-sans";
+
+:root {
+    font-family: "Noto Sans Variable", sans-serif
+}
+
+body {
+    background-color: #0f0f12;
+}
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
